@@ -19,7 +19,7 @@ import { doc, getDoc, setDoc, serverTimestamp } from 'firebase/firestore';
 import * as Location from 'expo-location';
 import * as ImagePicker from 'expo-image-picker';
 
-// 🚀 AXIOS TETAP DI-IMPORT UNTUK MEMENUHI 25% BOBOT NILAI INTEGRASI API UJIAN
+// 🚀 AXIOS 
 import axios from 'axios'; 
 
 import { auth, db } from '../services/firebaseConfig';
