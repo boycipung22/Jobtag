@@ -25,7 +25,7 @@ import axios from 'axios';
 import { auth, db } from '../services/firebaseConfig';
 import { getDateKey } from '../utils/helpers';
 
-// ── DATASET BERITA KECELAKAAN KERJA INDONESIA (ANTI-CACHE & PASTI BERUBAH-UBAH) ──
+// ── DATASET BERITA KECELAKAAN KERJA 
 const KUMPULAN_BERITA_K3 = [
   {
     title: "Kecelakaan Kerja di Bengkel Fabrikasi, Pekerja Tersengat Aliran Listrik Akibat Kabel Terkelupas.",
